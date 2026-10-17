@@ -1,0 +1,12 @@
+{
+  "about": "About",
+  "projects": "Projects",
+  "contacts": "Contacts",
+  "Привет! Я": "Hello! I'm",
+  "Александра Цидулко": "Alexandra Tsidulko",
+  "фронтенд разработчик": "frontend developer",
+  "Связаться со мной:": "Connect with me:",
+  "Обо мне": "About me",
+  "about-text-1": "I'm a frontend developer with experience in creating and maintaining SPAs using Vue and TypeScript. I've worked on a large product, migrating from Vue 2 to Vue 3, video chats using WebRTC, GraphQL, and interface testing. I've also worked on projects using React and Nuxt. Additionally, I've independently developed advertising special projects and browser mini-games - from the first screen to production launch.",
+  "about-text-2": "I enjoy understanding complex logic and turning it into clear and stable interfaces. My scientific background in biochemistry has taught me to work carefully with data, test hypotheses, and systematically identify the root causes of problems. Currently, I'm looking for a team where I can contribute to product development, participate in technical decisions, and continue growing as a frontend developer."
+}
