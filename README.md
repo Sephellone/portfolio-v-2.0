@@ -1,5 +1,9 @@
 # portfolio
 
+## Translation keys
+
+Run `npm run i18n:collect` to add literal keys from `t("...")` and `$t("...")` calls in `src` to `src/lang/en.json` and `src/lang/ru.json`. New values equal their keys; existing translations are preserved. Dynamic keys are not collected.
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup

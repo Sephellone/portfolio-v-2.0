@@ -8,5 +8,16 @@
   "Связаться со мной:": "Connect with me:",
   "Обо мне": "About me",
   "about-text-1": "I'm a frontend developer with experience in creating and maintaining SPAs using Vue and TypeScript. I've worked on a large product, migrating from Vue 2 to Vue 3, video chats using WebRTC, GraphQL, and interface testing. I've also worked on projects using React and Nuxt. Additionally, I've independently developed advertising special projects and browser mini-games - from the first screen to production launch.",
-  "about-text-2": "I enjoy understanding complex logic and turning it into clear and stable interfaces. My scientific background in biochemistry has taught me to work carefully with data, test hypotheses, and systematically identify the root causes of problems. Currently, I'm looking for a team where I can contribute to product development, participate in technical decisions, and continue growing as a frontend developer."
+  "about-text-2": "I enjoy understanding complex logic and turning it into clear and stable interfaces. My scientific background in biochemistry has taught me to work carefully with data, test hypotheses, and systematically identify the root causes of problems. Currently, I'm looking for a team where I can contribute to product development, participate in technical decisions, and continue growing as a frontend developer.",
+  "scrileDescription1": "B2B platforms for content creators with live streaming, video chats, and paid messaging.",
+  "scrileDescription2": "Developed interfaces and client-side logic, contributed to product development and the migration from Vue 2 to Vue 3.",
+  "rybaDescription1": "Interactive web projects for advertising campaigns: landing pages with mini-games and game mechanics.",
+  "rybaDescription2": "Developed and launched 10 projects.",
+  "LPS проекта после оптимизации ": "LPS score after optimization",
+  "Опыт работы": "Experience",
+  "Стек и цифры": "Tech stack and numbers",
+  "года в коммерческой разработке": "years of professional development experience",
+  "компонентов миграции Vue 2 → Vue 3": "components migrated from Vue 2 to Vue 3",
+  "проектов с нуля до продакшена": "projects built from scratch and launched",
+  "скачать резюме": "Download CV"
 }

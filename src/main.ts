@@ -6,6 +6,7 @@ import "./assets/main.css";
 import { createPinia } from "pinia";
 import en from "./lang/en.json";
 import ru from "./lang/ru.json";
+import reveal from "./directives/reveal";
 
 const app = createApp(App);
 
@@ -29,5 +30,6 @@ app.use(i18n);
 app.use(createPinia());
 
 app.use(router);
+app.directive("reveal", reveal);
 
 app.mount("#app");

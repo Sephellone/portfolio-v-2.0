@@ -13,9 +13,11 @@
     "lint:oxlint": "oxlint . --fix",
     "lint:eslint": "eslint . --fix --cache",
     "format": "prettier --write --experimental-cli src/",
-    "build-icons": "node scripts/build-icons-sprite.mjs"
+    "build-icons": "node scripts/build-icons-sprite.mjs",
+    "i18n:collect": "node scripts/collect-i18n-keys.mjs"
   },
   "dependencies": {
+    "date-fns": "^4.4.0",
     "pinia": "^4.1.0",
     "vue": "^3.5.42",
     "vue-i18n": "^11.4.14",

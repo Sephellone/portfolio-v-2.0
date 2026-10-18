@@ -1,4 +1,5 @@
 @import "./scss/common.scss";
+@import "./scss/reveal.scss";
 
 :root {
   --vh: 1vh;
