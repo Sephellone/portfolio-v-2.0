@@ -2,7 +2,13 @@
   <div class="header d-flex __align-center gap-4">
     <img class="header__logo" :src="`/img/logo${darkTheme.isDarkTheme ? '-dark' : '-light'}.svg`" alt="Logo" />
     <nav class="header__nav __align-center __justify-end __gap-4">
-      <base-button v-for="button in buttons" :key="button.target" text-like @click="$emit('scrollTo', button.target)">
+      <base-button
+        v-for="button in buttons"
+        :key="button.target"
+        class="header__nav-button px-5"
+        text-like
+        @click="$emit('scrollTo', button.target)"
+      >
         {{ button.label }}
       </base-button>
     </nav>

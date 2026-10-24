@@ -30,3 +30,7 @@
 | Игровая часть вдохновлена [проектом JSLegend](https://github.com/JSLegendDev/2d-portfolio-kaboom).   | The playable version was inspired by [JSLegend's project](https://github.com/JSLegendDev/2d-portfolio-kaboom). |
 | Фоновый трек: Suno AI.                                                                               | Background track: Suno AI.                                                                                     |
 | Отдельные тайлы (деревья, трава, вода): [FF6 tilesets](https://www.spriters-resource.com/snes/ff6/). | Some tiles (trees, grass, water): [FF6 tilesets](https://www.spriters-resource.com/snes/ff6/).                 |
+
+## Deployed at
+
+https://portfolio-v-2-0-rho.vercel.app/

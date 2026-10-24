@@ -10,6 +10,7 @@ export const createKaplay = (canvas: HTMLCanvasElement, width: number, height: n
     touchToMouse: true,
     debug: true,
     debugKey: "g",
+    loadingScreen: true,
     pixelDensity: 2,
     canvas: canvas,
     background: [15, 15, 15, 0.1],
