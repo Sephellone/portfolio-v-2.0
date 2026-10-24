@@ -46,7 +46,6 @@ const onClick = () => {
   justify-content: center;
   gap: 8px;
   width: fit-content;
-  min-width: 100px;
   padding: 8px 20px;
   border: none;
   border-radius: 8px;
@@ -61,7 +60,6 @@ const onClick = () => {
   text-align: center;
   cursor: pointer;
   box-shadow: none;
-  overflow: hidden;
   user-select: none;
 
   @include mixins.desktop-up {

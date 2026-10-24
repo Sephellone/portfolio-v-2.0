@@ -25,61 +25,7 @@
 import BaseButton from "@/components/ui/BaseButton.vue";
 import BaseChip from "@/components/ui/BaseChip.vue";
 import SectionTitle from "@/components/ui/SectionTitle.vue";
-import { useI18n } from "vue-i18n";
-import { computed } from "vue";
-const { t } = useI18n();
-
-const projects = computed(() => [
-  {
-    id: "1",
-    name: t("Красный автобус"),
-    description: [
-      t("Сайт рекламной камапнии приуроченной к началу нового учебного года."),
-      t("Две мини-игры, объединенные тематикой школьной атмосферы."),
-    ],
-    tags: ["Vue 3", "Typescript", "Pinia"],
-    link: "https://redschoolbus2026.ru",
-    img: "redbus",
-  },
-  {
-    id: "2",
-    name: t("Ёлка-гадалка"),
-    description: [
-      t("Новогодний спецпроект для компании Комус."),
-      t("Интерактивный сайт на Canvas API с анимацией и звуками."),
-    ],
-    tags: ["Vue 3", "Typescript", "Canvas API", "Pinia"],
-    link: "https://elkagadalka.ru",
-    img: "yolka",
-  },
-  {
-    id: "3",
-    name: t("Спартадув"),
-    description: [t("Сайт-игра для рекламы Спартакиады Комуса 2026."), t("Гонка за призами на виндсерфах.")],
-    tags: ["Vue 3", "Typescript"],
-    link: "https://spartaduv.ru",
-    img: "sparta",
-  },
-  {
-    id: "4",
-    name: t("Зомби-офис"),
-    description: [
-      t("Сайт для рекламной кампании бренда Деловой Стандарт."),
-      t("Две мини-игры с различной динамикой и фокусом на продукцию бренда."),
-    ],
-    tags: ["Vue 3", "Typescript", "Kaplay.js", "Pinia"],
-    link: "https://zombieoffice.ru",
-    img: "zombie",
-  },
-  {
-    id: "5",
-    name: t("Трекер времени"),
-    description: [t("Личный проект. Сайт для учета времени по задачам.")],
-    tags: ["Vue 3", "Typescript", "Pinia", "Firebase"],
-    link: "https://time-tracker-25243.web.app/",
-    img: "time-tracker",
-  },
-]);
+import { projects } from "@/const";
 </script>
 
 <style scoped lang="scss">

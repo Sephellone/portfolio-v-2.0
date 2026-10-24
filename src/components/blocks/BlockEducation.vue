@@ -16,28 +16,7 @@
 
 <script setup lang="ts">
 import SectionTitle from "@/components/ui/SectionTitle.vue";
-import { useI18n } from "vue-i18n";
-import { computed } from "vue";
-const { t } = useI18n();
-
-const educationItems = computed(() => [
-  {
-    school: "HTML-academy",
-    position: t("Профессия Фронтенд-разработчик"),
-    period: "2022 - 2023",
-  },
-  {
-    school: t("Аспирантура ФИЦ ФТМ"),
-    position: t("Кандидат наук"),
-    period: "2015 - 2021",
-  },
-  {
-    school: t("Новосибирский Государственный Университет"),
-    position: t("Факультет Естественных Наук"),
-    period: "2008 - 2013",
-    descriptionLine: t("Специалист"),
-  },
-]);
+import { educationItems } from "@/const";
 </script>
 
 <style scoped lang="scss">

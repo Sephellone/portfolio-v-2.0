@@ -13,6 +13,7 @@
     <div v-show="!isHeaderVisible" class="home__to-top d-center" @click="onScrollTo('header')">
       <span class="home__arrow"></span>
     </div>
+    <sprite-button class="home__sprite" />
   </div>
 </template>
 <script setup lang="ts">
@@ -25,6 +26,7 @@ import BlockEducation from "@/components/blocks/BlockEducation.vue";
 import BlockContacts from "@/components/blocks/BlockContacts.vue";
 import BlockFooter from "@/components/blocks/BlockFooter.vue";
 import { onMounted, onUnmounted, ref } from "vue";
+import SpriteButton from "@/components/SpriteButton.vue";
 
 const header = ref<InstanceType<typeof BlockHeader> | null>(null);
 const isHeaderVisible = ref(true);
@@ -89,6 +91,17 @@ const onScrollTo = (id: string) => {
     border-bottom: none;
     border-right: none;
     transform: translateY(4px) rotate(45deg);
+  }
+
+  &__sprite {
+    position: fixed;
+    right: 0;
+    top: 6px;
+
+    @include mixins.tablet-up {
+      right: 10px;
+      top: 14px;
+    }
   }
 }
 </style>

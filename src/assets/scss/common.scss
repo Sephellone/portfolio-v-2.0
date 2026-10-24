@@ -64,6 +64,10 @@ body {
   flex-wrap: wrap;
 }
 
+.__self-end {
+  align-self: flex-end;
+}
+
 .text-center {
   text-align: center;
 }

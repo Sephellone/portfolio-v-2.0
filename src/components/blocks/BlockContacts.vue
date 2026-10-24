@@ -20,23 +20,7 @@
 <script setup lang="ts">
 import SectionTitle from "@/components/ui/SectionTitle.vue";
 import BaseIcon from "@/components/ui/BaseIcon.vue";
-
-const contacts = [
-  {
-    label: "mail",
-    href: "mailto:alexandra.tsidulko@gmail.com",
-    hiddenDescription: "Email",
-    text: "alexandra.tsidulko@gmail.com",
-  },
-  { label: "tg", href: "https://t.me/aletsia", hiddenDescription: "Telegram", text: "@aletsia" },
-  {
-    label: "github",
-    href: "https://github.com/sephellone",
-    hiddenDescription: "GitHub",
-    text: "github.com/sephellone",
-  },
-  { label: "vk", href: "https://vk.ru/sephellone", hiddenDescription: "VK", text: "vk.ru/sephellone" },
-];
+import { contacts } from "@/const";
 </script>
 
 <style scoped lang="scss">

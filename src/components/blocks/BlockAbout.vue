@@ -27,26 +27,11 @@
 
 <script setup lang="ts">
 import SectionTitle from "@/components/ui/SectionTitle.vue";
+import { stackItems } from "@/const";
 import { differenceInYears } from "date-fns/differenceInYears";
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
 const { t } = useI18n();
-
-const stackItems = [
-  { name: "TypeScript", icon: "typescript" },
-  { name: "Vue.js", icon: "vue" },
-  { name: "JavaScript", icon: "js" },
-  { name: "Vuex", icon: "vuex" },
-  { name: "Pinia", icon: "pinia" },
-  { name: "React", icon: "react" },
-  { name: "HTML5", icon: "html" },
-  { name: "CSS3", icon: "css" },
-  { name: "Sass", icon: "sass" },
-  { name: "GraphQL", icon: "graphql" },
-  { name: "Jest", icon: "jest" },
-  { name: "Git", icon: "git" },
-  { name: "Figma", icon: "figma" },
-];
 
 const numberItems = computed(() => [
   { value: `${differenceInYears(new Date(), new Date("2023-04-01"))}+`, label: t("года в коммерческой разработке") },

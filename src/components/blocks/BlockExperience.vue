@@ -23,28 +23,7 @@
 <script setup lang="ts">
 import SectionTitle from "@/components/ui/SectionTitle.vue";
 import BaseChip from "@/components/ui/BaseChip.vue";
-import { useI18n } from "vue-i18n";
-import { computed } from "vue";
-const { t } = useI18n();
-
-const experienceItems = computed(() => [
-  {
-    company: "Scrile",
-    position: t("Frontend разработчик"),
-    period: "2023 - 2026",
-    descriptionLine1: t("scrileDescription1"),
-    descriptionLine2: t("scrileDescription2"),
-    tags: ["Vue 2.6", "TypeScript", "Vuex", "GraphQL", "WebRTC", "Jest", "React", "Nuxt", "Webpack"],
-  },
-  {
-    company: "Редакция Рыба",
-    position: t("Frontend разработчик"),
-    period: "2024 - 2026",
-    descriptionLine1: t("rybaDescription1"),
-    descriptionLine2: t("rybaDescription2"),
-    tags: ["Vue 3", "TypeScript", "Pinia", "Canvas API", "Kaplay.js", "Vite"],
-  },
-]);
+import { experienceItems } from "@/const";
 </script>
 
 <style scoped lang="scss">

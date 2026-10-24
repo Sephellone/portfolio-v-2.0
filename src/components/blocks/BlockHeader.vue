@@ -32,7 +32,7 @@ const buttons = [
 @use "@/assets/scss/mixins.scss";
 .header {
   width: 100%;
-  padding: 12px 0;
+  padding: 12px 44px 12px 0;
 
   &__nav {
     flex: 1;
