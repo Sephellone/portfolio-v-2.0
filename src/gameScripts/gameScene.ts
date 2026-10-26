@@ -161,7 +161,7 @@ export const gameScene = (
     const keyMapWSAD = [k.isKeyDown("d"), k.isKeyDown("a"), k.isKeyDown("w"), k.isKeyDown("s")];
 
     let nbOfKeyPressed = 0;
-    for (const key of keyMap) {
+    for (const key of [...keyMap, ...keyMapWSAD]) {
       if (key) {
         nbOfKeyPressed++;
       }

@@ -102,17 +102,17 @@ const currentProjectIndex = ref(0);
 const project = computed(() => projects.value[currentProjectIndex.value]);
 
 const onKeyPress = (e: KeyboardEvent) => {
-  if (props.type && (e.key === "Enter" || e.key === "Esc")) {
+  if (props.type && (e.key === "Enter" || e.key === "Escape")) {
     emit("close");
   }
 };
 
 onMounted(() => {
-  document.addEventListener("keypress", onKeyPress);
+  document.addEventListener("keydown", onKeyPress);
 });
 
 onBeforeUnmount(() => {
-  document.removeEventListener("keypress", onKeyPress);
+  document.removeEventListener("keydown", onKeyPress);
 });
 </script>
 

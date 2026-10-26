@@ -34,3 +34,5 @@
 ## Deployed at
 
 https://portfolio-v-2-0-rho.vercel.app/
+or
+https://tsidulko-portfolio-2-0.layero.app/
